@@ -11,13 +11,13 @@ const dc_heroes = ['Super-Man', 'Flash','Bat-Man']
 
 // const allHeroes = marvel_heroes.concat(dc_heroes);
 // console.log(allHeroes)
-//Spread Operator: 
+// Spread Operator: 
 // const newHeroes = [...marvel_heroes, ...dc_heroes]
 // console.log(newHeroes)
 
-// const another_Arr = [1, 2, 3, [4, 5, 6], 7, [8, 9, [34, 56]]]
+const another_Arr = [1, 2, 3, [4, 5, 6], 7, [8, 9, [34, 56]]]
 
-// const my_real_array = another_Arr.flat(Infinity)
+const my_real_array = another_Arr.flat(Infinity)
 // console.log(my_real_array)
 
 console.log(Array.isArray('Vivek'))

@@ -22,10 +22,9 @@ myArr.push(3)
 
 console.log('A', myArr)
 const myn = myArr.slice(1, 4)
-
 console.log(myn);
-console.log('B', myArr)
 
+console.log('B', myArr)
 const myn1 = myArr.splice(1, 4);
 console.log(myn1);
 console.log('C', myArr)
